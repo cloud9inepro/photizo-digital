@@ -10,6 +10,21 @@ import {
   ArrowUpRight,
 } from "lucide-react";
 
+import { Variants } from "framer-motion";
+
+const cardVariants: Variants = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { 
+      duration: 0.6, 
+      ease: [0.22, 1, 0.36, 1] as const 
+    },
+  },
+};
+
+
 const services = [
   {
     icon: <Share2 size={28} className="text-purple-400" />,
@@ -65,14 +80,14 @@ const containerVariants = {
   },
 };
 
-const cardVariants = {
-  hidden: { opacity: 0, y: 40 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
-  },
-};
+// const cardVariants = {
+//   hidden: { opacity: 0, y: 40 },
+//   visible: {
+//     opacity: 1,
+//     y: 0,
+//     transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+//   },
+// };
 
 export default function Services() {
   return (
