@@ -4,6 +4,25 @@ import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 
+import { Variants } from "framer-motion";
+
+const wordVariants: Variants = {
+  hidden: {
+    opacity: 0,
+    y: 20,
+    rotateX: 90,
+  },
+  visible: {
+    opacity: 1,
+    y: 0,
+    rotateX: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.25, 0.1, 0.25, 1] as const,
+    },
+  },
+};
+
 const words = ["Social Media", "Digital Marketing", "Copywriting", "Design", "Video Editing"];
 
 function useTypewriter(words: string[], speed = 100, pause = 2000) {
@@ -53,15 +72,15 @@ const containerVariants = {
   },
 };
 
-const wordVariants = {
-  hidden: { opacity: 0, y: 40, rotateX: -90 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    rotateX: 0,
-    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
-  },
-};
+// const wordVariants = {
+//   hidden: { opacity: 0, y: 40, rotateX: -90 },
+//   visible: {
+//     opacity: 1,
+//     y: 0,
+//     rotateX: 0,
+//     transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] },
+//   },
+// };
 
 export default function Hero() {
   const typeRef = useTypewriter(words);
