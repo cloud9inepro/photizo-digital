@@ -40,7 +40,7 @@ export default function Navbar() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="flex flex-col"
         >
-          <span className="text-white font-extrabold text-xl tracking-tight"
+          <span className="text-white font-bold text-xl tracking-tight"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
             Photizo

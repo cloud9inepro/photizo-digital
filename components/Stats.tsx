@@ -82,7 +82,7 @@ export default function Stats() {
               className="flex flex-col items-center text-center gap-2 py-6"
             >
               <span
-                className="text-4xl sm:text-5xl font-extrabold gradient-text"
+                className="text-4xl sm:text-5xl font-bold tracking-tight gradient-text"
                 style={{ fontFamily: "Syne, sans-serif" }}
               >
                 <Counter

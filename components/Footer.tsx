@@ -46,7 +46,7 @@ export default function Footer() {
           <div className="lg:col-span-2 flex flex-col gap-5">
             <div>
               <h3
-                className="text-2xl font-extrabold text-white tracking-tight"
+                className="text-2xl font-bold text-white tracking-tight"
                 style={{ fontFamily: "Syne, sans-serif" }}
               >
                 Photizo

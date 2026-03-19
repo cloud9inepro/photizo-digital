@@ -83,7 +83,7 @@ export default function Contact() {
             Contact Us
           </span>
           <h2
-            className="text-4xl sm:text-5xl font-extrabold text-white mt-3 mb-4 leading-tight"
+            className="text-4xl sm:text-5xl font-bold tracking-tight text-white mt-3 mb-4 leading-tight"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
             Let&apos;s Start a
@@ -284,7 +284,7 @@ export default function Contact() {
               <div className="absolute top-0 left-0 w-32 h-32 bg-purple-600/10 rounded-full blur-[40px] pointer-events-none" />
               <div className="relative z-10">
                 <p
-                  className="gradient-text font-extrabold text-3xl mb-1"
+                  className="gradient-text font-bold tracking-tight text-3xl mb-1"
                   style={{ fontFamily: "Syne, sans-serif" }}
                 >
                   24hrs

@@ -90,7 +90,7 @@ export default function Projects() {
               Our Work
             </span>
             <h2
-              className="text-4xl sm:text-5xl font-extrabold text-white mt-3 leading-tight"
+              className="text-4xl sm:text-5xl font-bold tracking-tight text-white mt-3 leading-tight"
               style={{ fontFamily: "Syne, sans-serif" }}
             >
               Projects That
@@ -139,7 +139,7 @@ export default function Projects() {
                   {/* Number & Arrow */}
                   <div className="flex items-center justify-between">
                     <span
-                      className="text-4xl font-extrabold text-white/10 group-hover:text-white/20 transition-colors"
+                      className="text-4xl font-bold tracking-tight text-white/10 group-hover:text-white/20 transition-colors"
                       style={{ fontFamily: "Syne, sans-serif" }}
                     >
                       {project.number}

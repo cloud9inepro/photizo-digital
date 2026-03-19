@@ -108,7 +108,7 @@ export default function Services() {
             What We Do
           </span>
           <h2
-            className="text-4xl sm:text-5xl font-extrabold text-white mt-3 mb-4 leading-tight"
+            className="text-4xl sm:text-5xl font-bold tracking-tight text-white mt-3 mb-4 leading-tight"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
             Services Built to

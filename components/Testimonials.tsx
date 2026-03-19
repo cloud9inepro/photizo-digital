@@ -94,7 +94,7 @@ export default function Testimonials() {
             Testimonials
           </span>
           <h2
-            className="text-4xl sm:text-5xl font-extrabold text-white mt-3 leading-tight"
+            className="text-4xl sm:text-5xl font-bold tracking-tight text-white mt-3 leading-tight"
             style={{ fontFamily: "Syne, sans-serif" }}
           >
             What Our

@@ -132,7 +132,7 @@ export default function Hero() {
             >
               <motion.span
                 variants={wordVariants}
-                className="block text-5xl sm:text-7xl lg:text-7xl font-extrabold text-white leading-tight"
+                className="block text-5xl sm:text-7xl lg:text-7xl font-bold text-white leading-tight tracking-tight py-1"
                 style={{ fontFamily: "Syne, sans-serif"  }}
               >
                 {line}
@@ -142,7 +142,7 @@ export default function Hero() {
           <div className="overflow-hidden block">
             <motion.span
               variants={wordVariants}
-              className="block text-5xl sm:text-7xl lg:text-7xl font-extrabold leading-tight gradient-text w-full"
+              className="block text-5xl sm:text-7xl lg:text-7xl font-bold leading-tight gradient-text w-full tracking-tight py-1"
               style={{ fontFamily: "Syne, sans-serif" , minHeight: "1.3em" }}
             >
               <span ref={typeRef} />

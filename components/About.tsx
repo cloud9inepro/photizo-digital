@@ -63,7 +63,7 @@ export default function About() {
 
               <div className="relative z-10">
                 <span
-                  className="text-6xl sm:text-8xl font-extrabold gradient-text block mb-4"
+                  className="text-6xl sm:text-8xl font-bold tracking-tight gradient-text block mb-4"
                   style={{ fontFamily: "Syne, sans-serif" }}
                 >
                   Photizo
@@ -105,7 +105,7 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.4 }}
               className="absolute -bottom-5 -right-5 glass rounded-2xl px-5 py-4 border border-purple-500/20"
             >
-              <p className="gradient-text font-extrabold text-2xl"
+              <p className="gradient-text font-bold tracking-tight text-2xl"
                 style={{ fontFamily: "Syne, sans-serif" }}
               >
                 50+
@@ -121,7 +121,7 @@ export default function About() {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="absolute -top-5 -left-5 glass rounded-2xl px-5 py-4 border border-pink-500/20"
             >
-              <p className="text-pink-400 font-extrabold text-2xl"
+              <p className="text-pink-400 font-bold tracking-tight text-2xl"
                 style={{ fontFamily: "Syne, sans-serif" }}
               >
                 100+
@@ -141,7 +141,7 @@ export default function About() {
               Who We Are
             </span>
             <h2
-              className="text-4xl sm:text-5xl font-extrabold text-white mt-3 mb-6 leading-tight"
+              className="text-4xl sm:text-5xl font-bold tracking-tight text-white mt-3 mb-6 leading-tight"
               style={{ fontFamily: "Syne, sans-serif" }}
             >
               We Are Your

@@ -38,7 +38,7 @@ export default function CTA() {
 
             {/* Heading */}
             <h2
-              className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-tight"
+              className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-white mb-6 leading-tight"
               style={{ fontFamily: "Syne, sans-serif" }}
             >
               Let&apos;s Build Something
